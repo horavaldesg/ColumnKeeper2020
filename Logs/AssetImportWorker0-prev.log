@@ -1,0 +1,230 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/horaciovaldes/Desktop/Unity/Unity Games/ColumnKeeper2020
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63644
+Successfully changed project path to: /Users/horaciovaldes/Desktop/Unity/Unity Games/ColumnKeeper2020
+/Users/horaciovaldes/Desktop/Unity/Unity Games/ColumnKeeper2020
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 59.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.16f1 (049d6eca3c44)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/horaciovaldes/Desktop/Unity/Unity Games/ColumnKeeper2020/Assets
+GfxDevice: creating device client; threaded=0
+2022-03-29 18:44:58.052 Unity[31736:1135010] LG ULTRAGEAR preferred device: AMD Radeon Pro 5500M (high power)
+2022-03-29 18:44:58.052 Unity[31736:1135010] Metal devices available: 2
+2022-03-29 18:44:58.052 Unity[31736:1135010] 0: AMD Radeon Pro 5500M (high power)
+2022-03-29 18:44:58.052 Unity[31736:1135010] 1: Intel(R) UHD Graphics 630 (low power)
+2022-03-29 18:44:58.052 Unity[31736:1135010] Forcing user selected device: AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.16f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.16f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000646 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 51.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.225 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2225ms)
+		BeginReloadAssembly (38ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (544ms)
+			LoadAssemblies (37ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (200ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (241ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (32ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005513 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 50.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.036 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2037ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1801ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (449ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (1031ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (862ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2732 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.1 MB.
+System memory in use after: 216.4 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3160.
+Total: 4.537951 ms (FindLiveObjects: 0.292858 ms CreateObjectMapping: 0.130079 ms MarkObjects: 4.043633 ms  DeleteObjects: 0.070116 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(9b61848a488d2443da0cf68af5701068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(9b61848a488d2443da0cf68af5701068) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/Frameworks/Mono/lib/libUnityOpenXR
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/Frameworks/Mono/lib/libUnityOpenXR.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/Frameworks/Mono/lib/libUnityOpenXR.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/Frameworks/Mono/lib/libUnityOpenXR.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/Frameworks/Mono/lib/UnityOpenXR
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/Frameworks/Mono/lib/libUnityOpenXR
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/Frameworks/Mono/lib/libUnityOpenXR.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/Frameworks/Mono/lib/libUnityOpenXR.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/Frameworks/Mono/lib/libUnityOpenXR.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.16f1/Unity.app/Contents/Frameworks/Mono/lib/libUnityOpenXR
+ -> (artifact id: '81d90de29cd30d949720fc4674e3b506') in 0.117806 seconds 
+  Import took 0.121683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.099265 seconds.
+  path: Assets/Bow/CustomInteractionManager.cs
+  artifactKey: Guid(b9d0270035a0c4e7087710587a5a7884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bow/CustomInteractionManager.cs using Guid(b9d0270035a0c4e7087710587a5a7884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fc207ca4218c733b52b29198aa9396') in 1.833416 seconds 
+  Import took 1.836951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.728667 seconds.
+  path: Assets/Bow
+  artifactKey: Guid(88d72113d84bf49268c8c256ef066cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bow using Guid(88d72113d84bf49268c8c256ef066cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316fb8c1c1fd19fd6be82c470ca3d98a') in 0.000857 seconds 
+  Import took 0.004412 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004952 seconds.
+Begin MonoManager ReloadAssembly
+The file 'MemoryStream' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+
+Fatal Error! The file 'MemoryStream' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+
+Obtained 50 stack frames.
+#0  0x007ff816e8500e in __pthread_kill
+#1  0x007ff816e06d24 in abort
+#2  0x000001104e269e in CrashDontLaunchBugReporter()
+#3  0x0000010e10e3a7 in EditorMonoConsole::LogToConsoleImplementation(CppLogEntry const&)
+#4  0x0000010e10d77c in EditorMonoConsole::LogToConsoleImplementation(DebugStringToFileData const&)
+#5  0x0000010e10f13e in LogToConsoleImplementation(DebugStringToFileData const&)
+#6  0x0000010ff4521d in DebugStringToFilePostprocessedStacktrace(DebugStringToFileData const&)
+#7  0x0000010ff45b03 in DebugStringToFile(DebugStringToFileData const&)
+#8  0x0000010ceb706d in CachedReader::OutOfBoundsError(unsigned long, unsigned long)
+#9  0x0000010ceb760c in CachedReader::UpdateReadCache(void*, unsigned long)
+#10 0x0000010d07b7f6 in void TransferScriptingObject<StreamedBinaryRead, false>(StreamedBinaryRead&, ScriptingObjectPtr, ScriptingClassPtr, SerializationCache::Data*&, ManagedReferencesRegistry*)
+#11 0x0000010d07b4f4 in void SerializableManagedRefTransfer::TransferMonoInstance<StreamedBinaryRead>(Object*, SerializableManagedRef&, StreamedBinaryRead&)
+#12 0x0000010d079580 in SerializableManagedRefTransfer::TransferBinaryInstanceOnly(Object*, SerializableManagedRef&, dynamic_array<unsigned char, 0ul>&, TransferInstructionFlags)
+#13 0x0000010d079335 in void SerializableManagedRefTransfer::RestoreBackupImpl<SerializableManagedRefBackupGenerator>(Object*, SerializableManagedRef&, TransferInstructionFlags)
+#14 0x0000010d68f9a4 in SerializableManagedRefsUtilities::RestoreBackups(DomainReloadingData const&)
+#15 0x0000010d59fcf1 in MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+#16 0x0000010d59dc5c in MonoManager::ReloadAssembly()
+#17 0x0000010ead28b0 in LoadDomainAndUserAssemblies(bool)
+#18 0x0000010ead52ce in LoadUserAssemblies()
+#19 0x0000010efce249 in AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+#20 0x0000010eff97ec in core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+#21 0x0000010f06dba0 in asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+#22 0x0000010f06ae65 in asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+#23 0x0000010f06a901 in asio::detail::task_io_service::run(std::__1::error_code&)
+#24 0x0000010f064bca in IOService::Run(bool)
+#25 0x0000010efc161c in RunAssetImporterV2()
+#26 0x0000010e285c03 in Application::InitializeProject()
+#27 0x000001104ee00d in -[EditorApplication applicationDidFinishLaunching:]
+#28 0x007ff816f7703c in __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+#29 0x007ff817014592 in ___CFXRegistrationPost_block_invoke
+#30 0x007ff817014510 in _CFXRegistrationPost
+#31 0x007ff816f48ca8 in _CFXNotificationPost
+#32 0x007ff817d7d90e in -[NSNotificationCenter postNotificationName:object:userInfo:]
+#33 0x007ff8199aee7e in -[NSApplication _postDidFinishNotification]
+#34 0x007ff8199aebcc in -[NSApplication _sendFinishLaunchingNotification]
+#35 0x007ff8199ac79c in -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+#36 0x007ff8199ac3f0 in -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+#37 0x007ff817da8834 in -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+#38 0x007ff817da86a6 in _NSAppleEventManagerGenericHandler
+#39 0x007ff81d6193f0 in _AppleEventsCheckInAppWithBlock
+#40 0x007ff81d618c5a in _AppleEventsCheckInAppWithBlock
+#41 0x007ff81d61238f in aeProcessAppleEvent
+#42 0x007ff81fc183d2 in AEProcessAppleEvent
+#43 0x007ff8199a6a22 in _DPSNextEvent
+#44 0x007ff8199a4c8a in -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#45 0x007ff819997339 in -[NSApplication run]
+#46 0x007ff81996b2b7 in NSApplicationMain
+#47 0x00000110528e79 in EditorMain(int, char const**)
+#48 0x000001105290a9 in main
+#49 0x0000011d7e351e in (Unknown)
